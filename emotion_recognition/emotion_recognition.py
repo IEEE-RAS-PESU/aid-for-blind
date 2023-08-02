@@ -49,17 +49,16 @@ while True:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
         cv2.putText(frame, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
 
-        # Check if the 's' key is pressed and speak the current emotion label
-        if cv2.waitKey(1) & 0xFF == ord('s'):
-            engine.say(f"The current emotion is {label}")
-            engine.runAndWait()
-
     # Display the resulting frame
     cv2.imshow('Face and Emotion Recognition', frame)
 
     # Exit the program when 'q' is pressed
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    key = cv2.waitKey(1)
+    if key == ord('q'):
         break
+    elif key == ord('s'):
+        engine.say(f"The current emotion is {label}")
+        engine.runAndWait()
 
 # Release the camera and close all windows
 cap.release()
