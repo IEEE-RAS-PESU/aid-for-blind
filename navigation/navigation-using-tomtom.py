@@ -1,5 +1,11 @@
 import requests
 geocoding_routing_api= "3ixGKeXBm2wnRw75MDUjRbLW3dDIeGN6"
+
+'''
+start_point = input("Starting point: ")
+destination = input("Destination: ")
+'''
+
 start_point = "Eiffel Tower, Paris, France"
 destination = "Times Square, New York, USA"
 
