@@ -7,7 +7,7 @@ i=0
 
 for root , directories, files in os.walk(path):
     for file in files:
-        if file.endirectoriesswith('.png'):
+        if file.endswith('.png'):
             pat=os.path.join(root, file)
             with Image.open(pat) as im:
                 if im.size!=(32, 32):
@@ -15,13 +15,13 @@ for root , directories, files in os.walk(path):
                 im.save(pat.replace(".png",".jpg"))
             os.remove(pat)
             i+=1
-            print(i,endirectories='\r')
-        elif file.endirectoriesswith('.jpg'):
+            print(i,end='\r')
+        elif file.endswith('.jpg'):
             pat=os.path.join(root, file)
             with Image.open(pat) as im:
                 if im.size!=(32, 32):
                     im=im.resize((32, 32),Image.LANCZOS)
                     im.save(pat)
                     i+=1
-                    print(i,endirectories='\r')
+                    print(i,end='\r')
 
