@@ -1,6 +1,8 @@
 # Aid-for-blind
 Aid for the Blind - RAS PESU Major Project (Term: 22-23)
 
+A software-based aid for blind people, helping them become completely independent by capturing continuous images from the camera and while also gnerating depthmap from the camera attached to the headgear along with a shoulder bag to house the computing unit, battery and electronic components and giving audio information in the earphones. The visually impaired person can perform daily activities more easily. 
+
 
 ## Technologies Used
 * Depth Estimation - MiDaS
@@ -30,6 +32,5 @@ Each frame read from the webcam is flipped horizontally and converted to RGB col
 Appropriate transformations are applied and passed as input to MiDaS
 Depth prediction is interpolated to to original image size, depth prediction is converted to depth map and color mapping is applied
 FPS is calculated and rendered on image
-
 #### Output:
 The code captures real-time webcam frames, processes them through the MiDaS model, and displays both the original image and its depth map side by side. The original image shows the real scene, while the depth map uses a color gradient to represent the depth information. The FPS is displayed on the image. The program can be exited by pressing the 'Esc' key.
