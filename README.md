@@ -1,6 +1,18 @@
 # Aid-for-blind
 Aid for the Blind - RAS PESU Major Project (Term: 22-23)
 
+# Technologies Used
+* Depth Estimation - MiDaS
+* Basic Image Captioning- AlexNet,GoogleNet, ResNet, VGG 
+* Object_Recognition- SSDModbileNet2
+* Face recognition - Haarcascade and Face recognition modules
+* Hand Gesture recognition - Mediapipe
+* Optical Character Recognition -EasyOCR, pyttsx3
+* Emotion recognition- Haarcascade 
+* Speech interface– Speech Recognition module
+* Traffic Sign Recognition - PIL
+* Navigation - geocoding API
+
 i)Depth Map
 #Brief Description of Code:
 The model MiDaS_small is loaded from PyTorch, this is responsible for depth prediction
