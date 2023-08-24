@@ -29,15 +29,21 @@ Namita Achyuthan (PES1UG22AM100)
 ### Setting up Jetson Nano
 Etch Jetson Nano Developer Kit SD Card Image (Refer https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 ### git clone
-```git clone ``
+```git clone https://github.com/IEEE-RAS-PESU/aid-for-blind.git ```
 ### Install Software Dependencies
 ```
 pip install opencv-python numpy pandas Pillow matplotlib tensorflow tensorflow_hub transformers
 pip install speech_recognition subprocess os pyttsx3
 pip install face_recognition mediapip
 ```
+### Running the program
+Run ```speech_interface.py```
+Run ```depthmap.py```
 
-## About each code
+## Program Flow
+![Alt text](image link)
+
+## About each subprogram
 ### i)Depth Map
 #### Brief Description of Code:
 The model MiDaS_small is loaded from PyTorch, this is responsible for depth prediction
