@@ -1,10 +1,12 @@
 # Aid-for-blind
 Aid for the Blind - RAS PESU Major Project (Term: 22-23)
+
 A software-based aid for blind people, helping them become completely independent by capturing continuous images from the camera and while also gnerating depthmap from the camera attached to the headgear along with a shoulder bag to house the computing unit, battery and electronic components and giving audio information in the earphones. The visually impaired person can perform daily activities more easily. 
+
 ## Contributor
-P Vaibhav (PES1UG21CS399)
-Sharanya Patil (PES1UG21CS553)
-Namita Achyuthan (PES1UG22AM100)
+* P Vaibhav (PES1UG21CS399)
+* Sharanya Patil (PES1UG21CS553)
+* Namita Achyuthan (PES1UG22AM100)
 
 ## Technologies Used
 * Depth Estimation - MiDaS
