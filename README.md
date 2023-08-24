@@ -1,6 +1,7 @@
 # Aid-for-blind
 Aid for the Blind - RAS PESU Major Project (Term: 22-23)
 
+
 # Technologies Used
 * Depth Estimation - MiDaS
 * Basic Image Captioning- AlexNet,GoogleNet, ResNet, VGG 
@@ -12,6 +13,13 @@ Aid for the Blind - RAS PESU Major Project (Term: 22-23)
 * Speech interface– Speech Recognition module
 * Traffic Sign Recognition - PIL
 * Navigation - geocoding API
+
+## Install requirements
+```
+pip install opencv-python numpy pandas Pillow matplotlib tensorflow tensorflow_hub transformers
+pip install speech_recognition subprocess os pyttsx3
+pip install face_recognition mediapip
+```
 
 i)Depth Map
 #Brief Description of Code:
