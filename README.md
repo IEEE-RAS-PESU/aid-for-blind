@@ -46,7 +46,7 @@ pip install face_recognition mediapip
 * To run any of the program say "run ```program name```"
 
 ## Program Flow
-![Refer Program_Flow Image](https://github.com/IEEE-RAS-PESU/aid-for-blind/tree/main/Program_Flow.png?raw=true)
+![Program_Flow](https://github.com/IEEE-RAS-PESU/aid-for-blind/assets/65724191/1095967a-ea6c-4b14-9cb9-4806a6bc0469)
 
 ## About each subprogram
 ### i)Depth Map
