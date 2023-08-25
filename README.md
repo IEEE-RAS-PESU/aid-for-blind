@@ -31,7 +31,7 @@ A software-based aid for blind people, helping them become completely independen
 * Headphones with mic
 ### Setting up Jetson Nano
 Etch Jetson Nano Developer Kit SD Card Image (Refer https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
-### git clone
+### Clone Repository
 ```git clone https://github.com/IEEE-RAS-PESU/aid-for-blind.git ```
 ### Install Software Dependencies
 ```
