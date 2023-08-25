@@ -46,7 +46,7 @@ pip install face_recognition mediapip
 * To run any of the program say "run ```program name```"
 
 ## Program Flow
-![[https://drive.google.com/file/d/17BJqyGTy-Gl26YAxo9yJISyIaMmPxzRk/view?usp=sharing](https://drive.google.com/file/d/17BJqyGTy-Gl26YAxo9yJISyIaMmPxzRk/view?usp=drive_link)](https://drive.google.com/file/d/17BJqyGTy-Gl26YAxo9yJISyIaMmPxzRk/view?usp=drive_link)
+![Refer Program Flow Image](./Program Flow.png)
 
 ## About each subprogram
 ### i)Depth Map
