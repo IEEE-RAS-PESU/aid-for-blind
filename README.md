@@ -28,6 +28,7 @@ A software-based aid for blind people, helping them become completely independen
 * USB keyboard and mouse
 * Computer display (HDMI or DP)
 * Micro-USB power supply
+* Headphones with mic
 ### Setting up Jetson Nano
 Etch Jetson Nano Developer Kit SD Card Image (Refer https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 ### git clone
@@ -39,8 +40,10 @@ pip install speech_recognition subprocess os pyttsx3
 pip install face_recognition mediapip
 ```
 ### Running the program
-Run ```speech_interface.py```
-Run ```depthmap.py```
+* Change the location of programs in ```speech_interface.py``` to match the directories in your system
+* Run ```speech_interface.py```
+* Run ```depthmap.py```
+* To run any of the program say "run ```program name```"
 
 ## Program Flow
 ![https://drive.google.com/file/d/17BJqyGTy-Gl26YAxo9yJISyIaMmPxzRk/view?usp=sharing](https://drive.google.com/file/d/17BJqyGTy-Gl26YAxo9yJISyIaMmPxzRk/view?usp=sharing)
