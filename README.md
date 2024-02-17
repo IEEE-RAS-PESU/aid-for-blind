@@ -8,6 +8,9 @@ A software-based aid for blind people, helping them become completely independen
 * Sharanya Patil (PES1UG21CS553)
 * Namita Achyuthan (PES1UG22AM100)
 
+### Mentor
+* Srividya Prasad (PES1UG21EC297) 
+
 ## Technologies Used
 * Depth Estimation - MiDaS
 * Basic Image Captioning - AlexNet,GoogleNet, ResNet, VGG 
